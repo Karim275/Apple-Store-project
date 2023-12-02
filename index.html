@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apple Store</title>
+    <link rel="stylesheet" href="home.css">
+    <link type="image/x-icon" rel="icon" href="./image/logo.png">
+</head>
+<body>
+<section>
+    <nav>
+        <div class="logo">
+            <h1>Apple Store</h1>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="#footer_main">Support</a></li>
+            <li><div class="tag">
+              
+                <div class="login">
+                  <button type="submit"><a href="login.html" target="_blank">Login</a></button>
+                    </div>
+            </div>
+    </li>
+        </ul>
+    </nav>
+</section>
+    <div class="main" id="phone">
+        <nav>
+            <div class="logo">
+                <img src="image/logo.png">
+            </div>
+        </nav>
+        <div class="content">
+            <h1>I Phone</h1>
+            <h2>15 Pro MAX</h2>
+            <p><b>                Apple announced its flagship phone, the iPhone 15 Pro Max,
+                 at the top in terms of specifications and price. The largest screen in the series,
+                 with an area of ​​​​6.7 inches, supports a 120 Hz processor to the A15. 
+                 You can get the strongest possible performance,
+                  whether using daily or playing excellent camera games, 
+                  so let us know the full specifications.
+                   For the iPhone 15 Pro Max, what are its most important advantages and disadvantages, 
+                and is it worth buying or not, so let us get to know that through the following.
+                </b>
+            </p>
+            <div class="choice">
+                <h1>Choose your iphone color</h1>
+            </div>
+            <div class="select">
+                <div id="Blue"></div>
+                <div id="Green"></div>
+                <div id="Gold"></div>
+                <div id="Black"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let Bluebtn = document.getElementById("Blue")
+        let Greenbtn =document.getElementById("Green")
+        let Goldbtn = document.getElementById("Gold")
+        let Blackbtn = document.getElementById("Black")
+        let phone =document.getElementById("phone")
+
+        Bluebtn.onclick=function(){
+            phone.style.backgroundImage="url(image/Blue.jpg)"
+        }
+        Greenbtn.onclick=function(){
+            phone.style.backgroundImage="url(image/Green.jpg)"
+        }
+        Goldbtn.onclick=function(){
+            phone.style.backgroundImage="url(image/Gold.jpg)"
+        }
+        Blackbtn.onclick=function(){
+            phone.style.backgroundImage="url(image/Black.jpg)"
+        }
+    </script>
+<div class="products" id="products">
+    <h1>Products</h1>
+
+    <div class="box">
+        <div class="card">
+
+            <div class="image">
+                <img src="./Picture/1.png">
+            </div>
+
+            <div class="products_text">
+                <h2>Iphone 15 Pro max</h2>
+                <p>
+                    The best cameras in Apple are the best in cameras.
+                </p>
+                <h3>$1800</h3>
+              
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="image">
+                <img src="./Picture/2.png">
+            </div>
+
+            <div class="products_text">
+                <h2>Iphone 14 Pro max</h2>
+                <p>
+                    Explore IOS 17,packed with new features in iphone 
+                </p>
+                <h3>$1300</h3>
+             
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <div class="image">
+                <img src="./Picture/3.png">
+            </div>
+
+            <div class="products_text">
+                <h2>Iphone 14 pro</h2>
+                <p>
+                    IPhone 14 and iPhone 14 Pro do not include a power adapter or EarPods.
+                </p>
+                <h3>$1000</h3>
+               
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            
+
+            <div class="image">
+                <img src="./Picture/4.png">
+            </div>
+
+            <div class="products_text">
+                <h2>Iphone 13 Pro max</h2>
+                <p>
+                    The best cameras in Apple are the best in cameras.
+                </p>
+                <h3>$1000</h3>
+                
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+        </div>
+
+        
+
+</div>
+</div>
+
+<footer id="footer">
+    <div class="footer_main" id="footer_main">
+        <div class="tag">
+            <h1>Contact</h1>
+            <a href="#">EGYPT/OmarAfandy</a>
+            <a href="#">05285</a>
+            <a href="#">contact@gmail.com</a>
+        </div>
+
+        <div class="tag">
+            <h1>Get Help</h1>
+            <a href="#" class="center">FAQ</a>
+            <a href="#" class="center">Shipping</a>
+            <a href="#" class="center">Returns</a>
+            <a href="#" class="center">Payment Options</a>
+        </div>
+
+        <div class="tag">
+            <h1>Our Stores</h1>
+            <a href="#" class="center">EGYPT</a>
+            <a href="#" class="center">USA</a>
+            <a href="#" class="center">India</a>
+            <a href="#" class="center">Japan</a>
+        </div>
+
+
+        
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+   background-size: cover;
+   background-position: center;
+}
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #37474F;
+ }
+ 
+ h1{text-align: center;}
+ 
+ label {
+    display: block;
+    margin-bottom: 10px;
+ }
+ input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #37474F;
+   }
+   button {
+    background-color: #d0dce1;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+   }
